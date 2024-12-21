@@ -1,0 +1,31 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+nav {
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    background-color: rgb(34, 33, 33);
+    opacity: 50%;
+    text-align: left;
+}
+
+nav :first-child {
+    text-align: right;
+}
+
+nav li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav li:hover {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
